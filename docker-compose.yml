@@ -1,0 +1,29 @@
+# Definición dos servizos para o contedor web
+services:
+    web:
+        build: .
+        user: "1000:1000"
+        volumes:
+            - type: bind
+              source: ~/linked
+              target: /usr/local/apache2/htdocs
+              bind:
+                create_host_path: true
+            - ./custom-apache.conf:/etc/apache2/sites-available/000-default.conf
+        ports:
+            - "80:80"
+            - "8080:80"
+        command: bash -c "a2ensite 000-default.conf && apache2-foreground"
+        networks:
+            hostez_net:
+                # Usar unha nova IP estática nun subrede diferente
+                ipv4_address: 172.20.0.100
+
+# Definición da rede personalizada
+networks:
+    hostez_net:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 172.20.0.0/16
+                  gateway: 172.20.0.1

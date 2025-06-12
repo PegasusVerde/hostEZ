@@ -1,0 +1,13 @@
+cd ~/hostEZ-web/
+
+~/hostEZ-web
+❯ tree
+.
+├── custom-apache.conf
+├── docker-compose.yml
+└── Dockerfile
+
+1 directory, 3 files
+
+~/hostEZ-web
+❯
