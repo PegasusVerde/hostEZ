@@ -1,0 +1,155 @@
+body {
+  background-color: #121212;
+  color: #a3a3a3;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #121212, #2a2a2a);
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border: 1px solid #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #444;
+}
+/* Non funciona? */
+.logo-container {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+header .logo {
+  max-width: 250px;
+  transition: transform 0.3s;
+}
+
+header .logo:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 28px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #7c7c7c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #6d6d6d;
+}
+
+select, input[type="text"] {
+  padding: 8px;
+  border: 2px solid #555;
+  border-radius: 8px;
+  background-color: #5b5b5b;
+  color: #000;
+  margin-top: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:focus, input[type="text"]:focus {
+  border-color: #00ccff;
+  box-shadow: 0 0 5px #00ccff;
+}
+
+.custom-select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="%23000" d="M2 4l4 4 4-4H2z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.loader-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #00ccff;
+}
+
+input[type="radio"]:disabled + label {
+  color: #888;
+  cursor: not-allowed;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #00ccff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #0099cc;
+  transform: translateY(-2px);
+}
+
+#message {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #2e2e2e;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.mod-section {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+
+.mod-item {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mod-label {
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ccff;
+}
+
+.mod-description {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #bbb;
+  max-width: 300px;
+  word-wrap: break-word;
+}

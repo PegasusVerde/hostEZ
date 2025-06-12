@@ -1,0 +1,156 @@
+ cd ~/linked/
+
+~/linked master*
+❯ tree
+.
+├── counter.txt
+├── css
+│   └── style.css
+├── csv
+├── csvPROCESADO
+│   ├── IP_test_8.csv
+│   ├── IP_testing_9.csv
+│   ├── test1_1.csv
+│   ├── test1_4.csv
+│   ├── test2_2.csv
+│   ├── test2_5.csv
+│   ├── test3_3.csv
+│   ├── testing_IP_7.csv
+│   ├── testingVM18_37.csv
+│   ├── testingVM19_38.csv
+│   ├── testingVM20_40.csv
+│   ├── testingVM21_41.csv
+│   ├── testingVM23_43.csv
+│   ├── testingVM24_44.csv
+│   ├── testingVM25_45.csv
+│   ├── testingVM26_46.csv
+│   ├── testingVM27_47.csv
+│   ├── testingVM28_48.csv
+│   ├── testingVM29_49.csv
+│   ├── testingVM30_50.csv
+│   ├── testingVM31_51.csv
+│   ├── testingVM33_53.csv
+│   ├── testingVM34_54.csv
+│   ├── testingVM35_55.csv
+│   ├── testingVM36_56.csv
+│   ├── testingVM37_57.csv
+│   ├── testingVM38_58.csv
+│   ├── testingVM39_59.csv
+│   ├── testingVM40_61.csv
+│   ├── testingVM41_62.csv
+│   ├── testingVM44_65.csv
+│   ├── testingVM45_66.csv
+│   ├── testingVM46_67.csv
+│   ├── testIP_6.csv
+│   ├── testVM_10.csv
+│   └── testVM_11.csv
+├── dist
+│   ├── assets
+│   │   ├── favicon.ico
+│   │   └── img
+│   │       ├── bg-masthead.jpg
+│   │       ├── bg-showcase-1.jpg
+│   │       ├── bg-showcase-2.jpg
+│   │       ├── bg-showcase-3.jpg
+│   │       ├── testimonials-1.jpg
+│   │       ├── testimonials-2.jpg
+│   │       └── testimonials-3.jpg
+│   ├── css
+│   │   └── styles.css
+│   └── js
+│       └── scripts.js
+├── img
+│   └── LOGO.png
+├── index.html
+├── index.php
+├── ip_unused.txt
+├── js
+│   └── script.js
+├── LICENSE
+├── MODS
+│   ├── FABRIC
+│   │   ├── 1.19.4
+│   │   │   ├── BOTH
+│   │   │   │   ├── balm-fabric-1.19.4-6.0.2.jar
+│   │   │   │   ├── bclib-2.3.5.jar
+│   │   │   │   ├── better-nether-8.2.3.jar
+│   │   │   │   ├── fabric-api-0.87.2+1.19.4.jar
+│   │   │   │   ├── friendsandfoes-fabric-mc1.19.4-3.0.9.jar
+│   │   │   │   └── waystones-fabric-1.19.4-13.1.0.jar
+│   │   │   ├── CLIENT
+│   │   │   │   ├── fabric-language-kotlin-1.13.3+kotlin.2.1.21.jar
+│   │   │   │   ├── lambdynamiclights-2.3.1+1.19.4.jar
+│   │   │   │   ├── sodium-fabric-mc1.19.4-0.4.10+build.24.jar
+│   │   │   │   ├── Xaeros_Minimap_25.2.6_Fabric_1.19.4.jar
+│   │   │   │   ├── yet-another-config-lib-fabric-3.1.1+1.19.4.jar
+│   │   │   │   └── Zoomify-2.9.4.jar
+│   │   │   └── SERVER
+│   │   │       └── half-heart-hardcore-1.1.1.jar
+│   │   └── 1.20.1
+│   │       ├── BOTH
+│   │       │   ├── Balm.jar
+│   │       │   ├── BCLib.jar
+│   │       │   ├── BetterNether.jar
+│   │       │   ├── Fabric API.jar
+│   │       │   ├── Friends&Foes.jar
+│   │       │   └── Waystones.jar
+│   │       ├── CLIENT
+│   │       │   ├── Fabric Language Kotlin.jar
+│   │       │   ├── LambDynamicLights.jar
+│   │       │   ├── Sodium.jar
+│   │       │   ├── Xaero's Minimap.jar
+│   │       │   ├── YetAnotherConfigLib.jar
+│   │       │   └── Zoomify.jar
+│   │       └── SERVER
+│   │           └── Half-Heart Hardcore.jar
+│   └── FORGE
+├── package.json
+├── package-lock.json
+├── README.md
+├── save_csv.php
+├── scripts
+│   ├── build-assets.js
+│   ├── build-pug.js
+│   ├── build-scripts.js
+│   ├── build-scss.js
+│   ├── clean.js
+│   ├── render-assets.js
+│   ├── render-pug.js
+│   ├── render-scripts.js
+│   ├── render-scss.js
+│   ├── sb-watch.js
+│   ├── start-debug.js
+│   └── start.js
+└── src
+    ├── assets
+    │   ├── favicon.ico
+    │   └── img
+    │       ├── bg-masthead.jpg
+    │       ├── bg-showcase-1.jpg
+    │       ├── bg-showcase-2.jpg
+    │       ├── bg-showcase-3.jpg
+    │       ├── testimonials-1.jpg
+    │       ├── testimonials-2.jpg
+    │       └── testimonials-3.jpg
+    ├── js
+    │   └── scripts.js
+    ├── pug
+    │   └── index.pug
+    └── scss
+        ├── components
+        │   └── _icons.scss
+        ├── _global.scss
+        ├── sections
+        │   ├── _call-to-action.scss
+        │   ├── _footer.scss
+        │   ├── _masthead.scss
+        │   ├── _showcase.scss
+        │   └── _testimonials.scss
+        ├── styles.scss
+        ├── variables
+        │   ├── _colors.scss
+        │   ├── _forms.scss
+        │   └── _typography.scss
+        └── _variables.scss
+
+32 directories, 118 files
