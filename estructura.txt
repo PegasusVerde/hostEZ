@@ -1,0 +1,27 @@
+cd ~/hostEZ/
+
+~/hostEZ
+❯ tree
+.
+├── ip_used.txt
+├── process_csv.py
+├── scheduler.sh
+├── start_hostez.sh
+├── startup.log
+└── vagrant_projects
+    ├── testingVM44
+    │   ├── mods
+    │   ├── provision.sh
+    │   ├── Vagrantfile
+    │   └── vagrant_up.log
+    ├── testingVM45
+    │   ├── mods
+    │   ├── provision.sh
+    │   └── Vagrantfile
+    └── testingVM46
+        ├── mods
+        ├── provision.sh
+        ├── Vagrantfile
+        └── vagrant_up.log
+
+8 directories, 13 files
